@@ -16,6 +16,5 @@ public class reference : MonoBehaviour {
 	void Update () {
 		yMov = lastY - refPosMouse.yPosition;
 		lastY = refPosMouse.yPosition;
-		Debug.Log (yMov);
 	}
 }
